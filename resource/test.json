@@ -1,0 +1,4988 @@
+[
+  {
+    "cms": "致远OA",
+    "level": 3,
+    "logic": "or",
+    "tags": [],
+    "conditions": [
+      {
+        "lacation": "body",
+        "matcher": "match",
+        "keywords": [
+          "/seeyon/USER-DATA/IMAGES/LOGIN/login.gif"
+        ]
+      },
+      {
+        "lacation": "body",
+        "matcher": "match",
+        "keywords": [
+          "/seeyon/common/"
+        ]
+      }
+    ]
+  },
+  {
+    "cms": "Redmi 路由器",
+    "level": 3,
+    "logic": "or",
+    "tags": [],
+    "conditions": [
+      {
+        "lacation": "body",
+        "matcher": "match",
+        "keywords": [
+          "<title>小米路由器</title>"
+        ]
+      },
+      {
+        "lacation": "body",
+        "matcher": "match",
+        "keywords": [
+          "<title>Redmi路由器</title>"
+        ]
+      }
+    ]
+  },
+  {
+    "cms": "Tenda 路由器",
+    "level": 3,
+    "logic": "or",
+    "tags": [],
+    "conditions": [
+      {
+        "lacation": "body",
+        "matcher": "match",
+        "keywords": [
+          "<title>Tenda"
+        ]
+      }
+    ]
+  },
+    {
+      "cms": "ThinkPHP",
+      "level": 5,
+      "logic": "or",
+      "tags": ["thinkphp"],
+      "conditions": [
+        {
+          "location": "header",
+          "matcher": "match",
+          "keywords": ["ThinkPHP"]
+        },
+        {
+          "location": "header",
+          "matcher": "match",
+          "keywords": ["thinkphp", "think_template"]
+        },
+        {
+          "location": "header",
+          "matcher": "match",
+          "keywords": ["X-Powered-By: ThinkPHP"]
+        },
+        {
+          "location": "body",
+          "matcher": "match",
+          "keywords": [
+            "href=\\\"http://www.thinkphp.cn\\\">ThinkPHP</a>",
+            "十年磨一剑-为API开发设计的高性能框架"
+          ]
+        },
+        {
+          "location": "body",
+          "matcher": "match",
+          "keywords": ["href=\\\"http://www.thinkphp.cn\\\">thinkphp</a><sup>"]
+        },
+        {
+          "location": "body",
+          "matcher": "match",
+          "keywords": ["1165838194"]
+        }
+      ]
+    },
+    {
+        "cms": "禅道 zentao",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "Welcome to use zentao"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "Welcome to zentao"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/js/all.js?v=16.5"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "快云服务器小助手",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "快云服务器助手"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "快云服务器助手-登录"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "富通天下外贸ERP",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "用户登录_富通天下外贸ERP"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "海翔D8药业云平台",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "登录海翔"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Kibana",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "Kibana"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-267431135"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-759754862"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1200737715"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "75230260"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1668183286"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "kbnversion"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "kbn-name: kibana",
+              "kbn-version"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "kbnVersion"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<body kibana ng-class"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "kbn-version",
+              "kbn-name: kibana"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "kbn-name: kibana"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "kbn-version"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "kibana"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "永中在线编辑软件系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Web Office",
+              "img/eio.png"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "南方数码交易一体化系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/SouthUIContent/themes/easydropdown.css"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "朗新天霁人力资源管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "hrsoft.com.cn",
+              "chkLogindiv",
+              "CustStyle"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "科荣 AIO 运营管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "style1/css/ListRange.css",
+              "主账套",
+              "login.jsp"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "联达动力医院综合办公管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "login.aspx?Method=AJAX&UserName=",
+              "Login_Return_XML.aspx"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "联达动力 医院综合办公管理系统"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "中农信达三资云平台",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "技术支持：北京中农信达信息技术有限公司"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "电子申请客户端管理系统(EAC)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "script/css/gwssi.css"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "青纺联物联查询平台",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "青纺联物联查询平台",
+              "Themes/default/login.css"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "致梦科技-管家婆物联通",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "HtmlPages/Vue/vue.js",
+              "GetLoginValidate"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "广联达 Glodon",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/ConsoleCommon/Content/weebox.css",
+              "广联达"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "任我行 CRM",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/Handlers/IdentifyingCode.ashx"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "广联达 广讯通",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "gtp.standard",
+              "JS/gxtAutoLogin.js"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "智能表综合管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "js/jsCore.js",
+              "Ajax_Code/Login.ashx",
+              "login.css"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "科德电子智慧水务平台",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "山东科德电子有限公司",
+              "J_LoginSub"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "秦川燃气综合管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "系统登录",
+              "res/icon/key.png",
+              "login"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "东胜物流软件",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "js/dhtmlxcombo_whp.js",
+              "login.aspx"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "九思 OA 协同办公系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/jsoa/login.jsp"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "润申信息企业标准化管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "润申信息",
+              "企业标准化管理系统",
+              "loginForm"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "银达汇智智慧综合管理平台",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "福州银达云创信息科技有限公司",
+              "miniui/crypto/CodeManage.js"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1170487960"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "同鑫T9eHR信息化管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "T9eHR-iconfont",
+              "Authentication/Login"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "NortekControlLineareMerge",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "img/emerge.ico",
+              "login_pw"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "致远OA M1 Server",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "M1-Server"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "顶讯科技-易宝OA系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "欢迎登录易宝OA系统"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "惠商+管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "惠商+管理系统"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "红帆-ioffice OA",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "iOffice.net"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "管家婆全渠道业务同步中心",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "管家婆全渠道业务同步中心"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Spring env",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "servletContextInitParams"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "logback"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "微三云管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "WSY_logo",
+              "管理系统 MANAGEMENT SYSTEM"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "日志易",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "auth/passwordReset",
+              "yw-login-",
+              "yw-login-logo"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "思迪数据池管理平台",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Ajax/Login",
+              "思迪",
+              "canvas"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "科迈 RAS",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "科迈RAS",
+              "CmxGoUrl.php"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Weblogic",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Error 404--Not Found"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Error 403--"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/console/framework/skins/wlsconsole/images/login_WebLogic_branding.png"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Welcome to Weblogic Application Server"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<i>Hypertext Transfer Protocol -- HTTP/1.1</i>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<TITLE>Error 404--Not Found</TITLE>",
+              "<i>Hypertext Transfer Protocol -- HTTP/1.1</i>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<title>Oracle WebLogic Server 管理控制台</title>"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "TWCMS",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "href=\"/twcms/theme/default/css/global.css"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "href=\"/twcms/theme/default/css/global.css\""
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "twcms"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Sangfor SSL VPN",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/por/login_psw.csp"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "loginPageSP/loginPrivacy.js"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "e-mobile",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "weaver,e-mobile"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "ecology",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "ecology_JSessionid"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "ecology_JSessionid"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "天融信VPN设备",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "topsecsvportalname"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "PbootCMS",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "PbootSystem"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "PbootCMS"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "PbootCMS"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "启明某VPN设备",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "cover_admin.css",
+              "SSLVPN LOGIN"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "天玥运维安全网关",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "css/fw/full.css",
+              "js/p/login.js",
+              "login"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "TP-LINK 产品",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "TP-LINK"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Influxdb",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "X-Influxdb"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "微宏 OA",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "wh/servlet/MainServer"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Shiro",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "rememberMe="
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "=deleteMe"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "shiroCookie"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "rememberMe="
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "=deleteMe"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Dreamer CMS-Shiro",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "dreamer-"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Dreamer CMS",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-748565678"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "dreamer-cms"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "慧星自来水营业管理信息系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1704826498"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Bonobo Git Server",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-219625874"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "晶奇科技救助管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1185226132"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "用友BIP 数据应用服务",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1183274548"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "流量通 流量平台",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "325583172"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "北京朗新天霁人力资源系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1143915194"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "护卫神·主机大师",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1188645141"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "友加畅捷U+财会通",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "2049187099"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "万户ezOFFICE",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "2467445972"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "LocLan"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "信锐物联平台",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "147973611"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "WiseGrid慧敏应用交付网关",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "910523681"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "重庆佰鼎-佰鼎OA",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "default.aspx",
+              "Style/Style.css",
+              "Skin2017",
+              "TxtUserPwd"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "泛微云桥 e-Bridge",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "wx.weaver"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "e-Bridge"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "泛微 OA",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1578525679"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Swagger UI",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Swagger UI"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Ruijie",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "4008 111 000"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Huawei SMC",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Script/SmcScript.js?version="
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "H3C Router",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/wnm/ssl/web/frame/login.html"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Cisco SSLVPN",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/+CSCOE+/logon.html"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "通达OA",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/images/tongda.ico"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Office Anywhere"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "通达OA",
+              "login"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<link rel=\"shortcut icon\" href=\"/images/tongda.ico\" />"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Office Anywhere 2013"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "深信服 waf",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "rsa.js",
+              "commonFunction.js"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "深信服防火墙数据中心",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Redirect to...",
+              "/LogInOut.php"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "深信服一体化网关 MIG",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "cgi-bin/login.cgi",
+              "/html/wz_tooltip.js"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "天融信防火墙",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "TOPSEC",
+              "image/aaa.png",
+              "username"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "WEB User Interface"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "TopWebServer"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "天融信TopAPP负载均衡系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "TopAPP负载均衡系统",
+              "天融信"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "网御 vpn",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/vpn/common/js/leadsec.js",
+              "/vpn/user/common/custom/auth_home.css"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Typecho",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "typecho",
+              "usr/themes"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "generator\" content=\"Typecho"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Typecho"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "401 登陆认证",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "401 Authorization"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "唯德科创 IPEasy 知易通",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "_IPEasy知易通"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Apache Airflow",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "Airflow - Login"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "启明星辰天清汉马USG防火墙",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/cgi-bin/webui?op=get_product_model"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "天清汉马USG"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<title>天清汉马USG防火墙</title>"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "蓝凌 OA",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "sys/ui/extend/theme/default/style/icon.css",
+              "sys/ui/extend/theme/default/style/profile.css"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "蓝凌软件",
+              "App_Themes/Login"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "飞鱼星上网行为管理",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "css/R1Login.css",
+              "share.ti_username",
+              "login_logo"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "深信服上网行为管理系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "utccjfaewjb = function(str, key)"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "document.write(WRFWWCSFBXMIGKRKHXFJ"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "深信服应用交付报表系统",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/reportCenter/index.php?cls_mode=cluster_mode_others"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "群晖 NAS",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Synology",
+              "webman/"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "DiskStation",
+              "webman/modules",
+              "NAS"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "金蝶云星空",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "HTML5/content/themes/kdcss.min.css"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/ClientBin/Kingdee.BOS.XPF.App.xap"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "CoreMail",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "coremail/common"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Jboss",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "jboss.css"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-656811182"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "jboss-eap"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Gitlab",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "assets/gitlab_logo"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1278323681"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "516963061"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "gon.default_issues_tracker",
+              "content=\"gitlab community edition\"",
+              "content=\"gitlab ",
+              "<a href=\"https://about.gitlab.com/\">about gitlab",
+              "class=\"col-sm-7 brand-holder pull-left\"",
+              "<a href=\"https://about.gitlab.com/\">About GitLab</a>"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "Set-Cookie: _gitlab_session="
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "content=\"gitlab"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<a href=\"https://about.gitlab.com/\">About GitLab</a>"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "宝塔-BT.cn",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "入口校验失败"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "没有找到站点",
+              "可能原因",
+              "CDN产品",
+              "Web服务",
+              "检查端口是否正确"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<title>恭喜，站点创建成功",
+              "面板系统后台",
+              "系统自动生成"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "扫码登录更安全",
+              "bt.cn",
+              "/login"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "站点创建成功",
+              "bt.cn"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "站点创建成功",
+              "宝塔"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-386189083"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "宝塔Linux面板"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<title>入口校验失败</title>",
+              "href=\"http://www.bt.cn/bbs\""
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "DouPHP",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Powered by DouPHP",
+              "DouPHP",
+              "theme"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "content=\"douphp "
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Powered by DouPHP"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "indexLeft"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "dou_callback"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "douco"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "content=\"douphp"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "禅道",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "self.location",
+              "Lw=="
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/theme/default/images/main/zt-logo.png"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "zentaosid"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "zentaosid"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "用友软件",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "UFIDA Software CO.LTD all rights reserved"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "logo/images/ufida_ehr_disable.png",
+              "logo/images/ufida_ehr.png",
+              "logo/images/ufida_ebs_disable.png"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "用友NC",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "logo/images/ufida_nc.png",
+              "用友NC"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "用友NC"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "YONYOU NC",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "uclient.yonyou.com",
+              "UClient"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "url=nccloud"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "RabbitMQ",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<title>RabbitMQ Management</title>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1064742722"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "RabbitMQ"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "RabbitMQ"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "rabbitmq management"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Zabbix",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "zabbix",
+              "Zabbix SIA"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "892542951"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "images/general/zabbix.ico",
+              "meta name=\"author\" content=\"zabbix sia\""
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "zbx_sessionid"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "href=\"https://www.zabbix.com/support\""
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "meta name=\"author\" content=\"zabbix sia\""
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "images/general/zabbix.ico"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "联软准入",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "网络准入",
+              "leagsoft",
+              "redirect"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "leagsoft",
+              "redirect",
+              "网络准入"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "列目录",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Index of /"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              " - /</title>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<h1>Index of /",
+              "<title>Index of /"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "浪潮服务器IPMI管理口",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "img/inspur_logo.png",
+              "Management System"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "RegentApi_v2.0",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "RegentApi_v2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Tomcat默认页面",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/manager/status",
+              "/manager/html"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "slack-instance",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "99395752"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "spring-boot",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "116323821"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "No message available",
+              "status"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Jenkins",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "81586312"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "jenkins-agent-protocols",
+              "Error 403 No valid crumb was included in the request"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "X-Jenkins"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "x-required-permission: hudson.model.hudson.read"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "x-hudson"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "x-jenkins"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Cnservers LLC",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-235701012"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Atlassian",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "743365239"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "628535358"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "705143395"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Chainpoint",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "2128230701"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "LaCie",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1277814690"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Parse",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "246145559"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "JIRA",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "855273746"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "content=\"jira"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "com.atlassian.plugins"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "ams-build-number"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "jira.webresources"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "atlassian.xsrf.token"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "system dashboard - "
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Avigilon",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1318124267"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Atlassian – Confluence",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-305179312"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1642532491"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "OpenStack",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "786533217"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-923088984"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1232596212"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "openstack dashboard"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Pi Star",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "432733105"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Angular IO (AngularJS)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1255347784"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "XAMPP",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1275226814"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1437701105"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "content=\"kai oswald seidler",
+              "content=\"xampp "
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "xampps_info",
+              "xampp user"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "XAMPP"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "content=\"xampp "
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "font-size: 1.2em; color: red;\">new xampp"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "content=\"kai oswald seidler"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "/xampps.jpg"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "content=\"xampp"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<meta name=\"author\" content=\"Kai Oswald Seidler\">"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<p style=\"margin-left: 2.6em; font-size: 1.2em; color: red;\">New XAMPP security concept:</p>"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "xampp user"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "xampp",
+              "location http"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "xampps_info"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "XAMPP"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "welcome to xampp"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "xampp version"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "xampp for"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "React",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-2009722838"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Atlassian – JIRA",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "981867722"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "552727997"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1581907337"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Aplikasi",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "494866796"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Ubiquiti Aircube",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1249285083"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Atlassian – Bamboo",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1379982221"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Exostar – Managed Access Gateway",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "420473080"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Cisco Meraki",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "163842882"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Archivematica",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1378182799"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "TCN",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-702384832"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "CX",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-532394952"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Ace",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-183163807"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "NetData",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1302486561"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "OpenGeo Suite",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-609520537"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Dgraph Ratel",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1961046099"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Material Dashboard",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1913538826"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Form.io",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1319699698"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Kubeflow",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1203021870"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "netdata dashboard",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-182423204"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1585145626"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "CapRover",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "988422585"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "WiJungle",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "2113497004"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Onera",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1234311970"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "SmartPing",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "430582574"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "FRITZ!Box",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-219752612"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "fortinet-forticlient",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "945408572"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Ubiquiti – AirOS",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-697231354"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1020814938"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Fortinet – Forticlient",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "945408572"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Outlook Web Application",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1768726119"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1356662359"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Huawei – Claro",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "2109473187"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "ASUS AiCloud",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "552592949"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "SonicWALL",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "631108382"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "Server:SonicWALL"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Google",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "708578229"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Plesk",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-134375033"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1050786453"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-981606721"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<p>For more information please contact <!--@adminemail@-->"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<div class=\"poweredBy\"><a target=\"_blank\" href=\"http://www.swsoft.com/en/products/plesk/"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<title>Default PLESK Page</title>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<title>Default Parallels Plesk Panel Page</title>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<h1>This is the Plesk&#153; default page</h1>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<h1><a class=\"product-logo\" href=\"http://www.parallels.com/plesk/\" title=\"Parallels Plesk Panel\">Parallels Plesk Panel</a></h1>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "This page is autogenerated by <a target=\"_blank\" href=\"http://www.swsoft.com/en/products/plesk/\">Plesk"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "if (window.plesk_promo.virtuozzo) {"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "</html><!--______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________IE error page size limitation______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Dahua Storm (IP Camera)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "2019488876"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "833190513"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Huawei – ADSL/Router",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1395400951"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Sophos Cyberoam (appliance)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1601194732"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "LANCOM Systems",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-325082670"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "TilginAB (HomeGateway)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1346447358"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Supermicro Intelligent Management (IPMI)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1410610129"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Zyxel ZyWALL",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-440644339"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-484708885"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Dell SonicWALL",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "363324987"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Ubiquiti Login Portals",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1446794564"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Sophos User Portal/VPN Portal",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1045696447"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Apache Tomcat",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-297069493"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "OpenVPN",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "396533629"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "realm=\"openvpn"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "server: openvpn"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Cyberoam",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1462981117"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Technicolor",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1594377337"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-2138771289"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Vodafone (Technicolor)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "165976831"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "UBNT Router UI",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1677255344"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Intelbras Wireless",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-359621743"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Kerio Connect (Webmail)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-677167908"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "BIG-IP",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "878647854"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Microsoft OWA",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "442749392"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "pfSense",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1405460984"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1015545776"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "https://www.pfsense.org/?gui=bootstrap",
+              "rubicon communications, llc (netgate",
+              "<h4>login to pfsense</h4>"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "pfSense"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<h4>login to pfsense</h4>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "rubicon communications, llc (netgate)"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "https://www.pfsense.org/?gui=bootstrap"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "rubicon communications, llc netgate"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "pfSense"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "iKuai Networks",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-271448102"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Dlink Webcam",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "31972968"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1354933624"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1221759509"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1144925962"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "3CX Phone System",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "970132176"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Bluehost",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1119613926"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Sangfor",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "123821839"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1926484046"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1810847295"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "ZTE Corporation (Gateway/Appliance)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "459900502"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Ruckus Wireless",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-2069844696"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Bitnami",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1607644090"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<td><img src=\"img/bitnami.png\" alt=\"Bitnami\"></td>",
+              "<p>Thanks for using Bitnami!</p>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<td><img src=\"img/bitnami.png\" alt=\"Bitnami\"></td>"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<p>Thanks for using Bitnami!</p>"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Juniper Device Manager",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "2141724739"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Technicolor Gateway",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1835479497"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "NETASQ - Secure / Stormshield",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1929912510"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "VMware Horizon",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1255992602"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1895360511"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-991123252"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "VMware",
+              "ui-page",
+              "portal/favicon"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "VMware Horizon"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1182206475"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "VMware Horizon"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Vmware Secure File Transfer",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1642701741"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "SAP Netweaver",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-266008933"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "SAP ID Service: Log On",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1967743928"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "SAP Conversational AI",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1347937389"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Palo Alto Login Portal",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "602431586"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Palo Alto Networks",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-318947884"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Webmin",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1453890729"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1038557304"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1280907310"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "479413330"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Webmin",
+              "session_login"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "webmin server on"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Webmin server on"
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "login to webmin"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Docker",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1814887000"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1937209448"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "x-docker-registry-version",
+              "x-docker-container: nginx"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "x-docker-container: nginx"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "x-docker: production"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "x-docker-registry-version"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Amazon",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1544605732"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "716989053"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "phpMyAdmin",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1010568750"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-476231906"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "pma_password"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "<img src=\"./themes/original/img/logo_right.png\" id=\"imLogo\" name=\"imLogo\" alt=\"phpMyAdmin\" border=\"0\" /></a>"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "realm=\"phpmyadmin"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "set-cookie: phpmyadmin="
+            ]
+          },
+          {
+            "lacation": "title",
+            "matcher": "match",
+            "keywords": [
+              "phpmyadmin "
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Zhejiang Uniview Technologies Co.",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1240222446"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "ISP Manager",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-986678507"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "AXIS (network cameras)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1616143106"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Roundcube Webmail",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-976235259"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "UniFi Video Controller (airVision)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "768816037"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Freebox OS",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1838417872"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "Freebox OS"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Keenetic",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "547282364"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Sierra Wireless Ace Manager (Airlink)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1571472432"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Synology DiskStation",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "149371702"
+            ]
+          },
+          {
+            "lacation": "header",
+            "matcher": "match",
+            "keywords": [
+              "Synology DiskStation"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "INSTAR IP Cameras",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1169314298"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Octoprint (3D printer)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1307375944"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Vesta Hosting Control Panel",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1954835352"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Farming Simulator Dedicated Server",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "509789953"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Residential Gateway",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1933493443"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "cPanel Login",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1993518473"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1544230796"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1244636413"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Arris",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1477563858"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "PLEX Server",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-895890586"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Deluge",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "944969688"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Cambium Networks",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-435817905"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Parallels Plesk Panel",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-652508439"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-519765377"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-771764544"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "Parallels IP Holdings GmbH"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Fireware Watchguard",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-569941107"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Shock&Innovation!! netis setup",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1326164945"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "cacaoweb",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1738184811"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Loxone (Automation)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "904434662"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "HP Printer / Server",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "905744673"
+            ]
+          },
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-2144363468"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Netflix",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "902521196"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Linksys Smart Wi-Fi",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-2063036701"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "lwIP (A Lightweight TCP/IP stack)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-1205024243"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Hitron Technologies",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "607846949"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Dahua Storm (DVR)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "1281253102"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "MOBOTIX Camera",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "661332347"
+            ]
+          }
+        ]
+      },
+      {
+        "cms": "Blue Iris (Webcam)",
+        "level": 3,
+        "logic": "or",
+        "tags": [],
+        "conditions": [
+          {
+            "lacation": "body",
+            "matcher": "match",
+            "keywords": [
+              "-520888198"
+            ]
+          }
+        ]
+      }
+    ]
